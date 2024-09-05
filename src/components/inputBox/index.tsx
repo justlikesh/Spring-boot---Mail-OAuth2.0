@@ -1,8 +1,4 @@
-import {
-  ChangeEvent,
-  forwardRef,
-  KeyboardEvent as ReactKeyboardEvent,
-} from "react";
+import { ChangeEvent, forwardRef } from "react";
 import "./style.css";
 
 interface Props {
@@ -11,10 +7,10 @@ interface Props {
   type: "text" | "password";
   value: string;
   message?: string;
-  isErrorMessage?: boolean;
+  isErrorMessage: boolean;
   buttonTitle?: string;
   onChange: (event: ChangeEvent<HTMLInputElement>) => void;
-  onKeyDown?: (event: ReactKeyboardEvent<HTMLInputElement>) => void;
+  onKeyDown?: (event: KeyboardEvent) => void;
   onButtonClick?: () => void;
 }
 
