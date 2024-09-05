@@ -14,10 +14,8 @@ import lombok.NoArgsConstructor;
 @Entity(name="certification")
 @Table(name="certification")
 public class CertificationEntity {
-
     @Id
     private String userId;
     private String email;
     private String certificationNumber;
-
 }
