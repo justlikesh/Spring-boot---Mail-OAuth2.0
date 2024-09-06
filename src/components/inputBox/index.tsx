@@ -40,7 +40,7 @@ const InputBox = forwardRef<HTMLInputElement, Props>((props: Props, ref) => {
 
   return (
     <div className="input-box">
-      <div className="input-box-title">{"title"}</div>
+      <div className="input-box-title">{title}</div>
       <div className="input-box-content">
         <div className="input-box-body">
           <input
