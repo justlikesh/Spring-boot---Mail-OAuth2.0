@@ -1,4 +1,4 @@
-package com.housing.back.dto;
+package com.housing.back.dto.response;
 
 import com.housing.back.common.ResponseCode;
 import com.housing.back.common.ResponseMessage;

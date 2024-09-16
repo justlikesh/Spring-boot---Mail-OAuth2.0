@@ -1,6 +1,6 @@
 package com.housing.back.handler;
 
-import com.housing.back.dto.ResponseDto;
+import com.housing.back.dto.response.ResponseDto;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
